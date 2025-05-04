@@ -5,6 +5,7 @@ Simple Quiz is an interactive flashcard application built with Streamlit. It all
 ## Features
 
 - **Interactive Flashcards**: View questions, reveal answers, and mark them as known or unknown.
+- **Dynamic Styling**: Each flashcard's background color can be customized per set.
 - **Progress Tracking**: Track the number of cards viewed, known, and unknown.
 - **Customizable Sets**: Load custom flashcard sets from the `sets` folder.
 - **Review Mode**: Focus on cards marked as unknown.
@@ -31,9 +32,8 @@ Simple Quiz is an interactive flashcard application built with Streamlit. It all
 ## Folder Structure
 
 - `main.py`: The main application file.
-- `conf/`: Configuration files for custom sets.
 - `sets/`: Folder containing JSON files for flashcard sets.
-  - Example: `sample_set.json`
+  - Example: `sample_set.json`, `Statika.json`
 
 ## Usage
 
@@ -60,14 +60,7 @@ Simple Quiz is an interactive flashcard application built with Streamlit. It all
 
 ## Configuration
 
-You can customize the title and background color for each set by creating a corresponding JSON file in the `conf/` folder. Use the following format:
-
-```json
-{
-    "title": "Custom Set Title",
-    "background_color": "#FF5733"
-}
-```
+You can customize the title and background color for each set directly in the code or by modifying the relevant sections in `main.py`. If no customization is provided, default values will be used.
 
 ## Requirements
 
