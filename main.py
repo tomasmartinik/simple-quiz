@@ -5,14 +5,7 @@ import json
 
 st.set_page_config(page_title="Flashcards Quizlet", page_icon="🧠")
 
-# Flashcards data
-default_flashcards = {
-    "What is the capital of the Czech Republic?": "Prague",
-    "What is 7 * 8?": "56",
-    "What is the capital of Slovakia?": "Bratislava",
-    "What is the largest ocean in the world?": "Pacific Ocean",
-    "How many teeth does a human have?": "32"
-}
+
 
 # Function to load sets from the 'sets' folder
 def load_sets():
@@ -31,7 +24,7 @@ def load_set_config(set_name):
     if os.path.exists(config_path):
         with open(config_path, "r") as f:
             return json.load(f)
-    return {"title": f"Flashcards Quizlet - {set_name}"}  # Default title and blue color
+    return {"title": f"{set_name}"}  # Default title and blue color
 
 # Load available sets
 available_sets = load_sets()
