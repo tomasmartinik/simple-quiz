@@ -1,6 +1,6 @@
-# Flashcards Quizlet
+# Simple Quiz
 
-Flashcards Quizlet is an interactive flashcard application built with Streamlit. It allows users to study and review flashcards, track their progress, and load custom sets of flashcards.
+Simple Quiz is an interactive flashcard application built with Streamlit. It allows users to study and review flashcards, track their progress, and load custom sets of flashcards.
 
 ## Features
 
@@ -33,7 +33,7 @@ Flashcards Quizlet is an interactive flashcard application built with Streamlit.
 - `main.py`: The main application file.
 - `conf/`: Configuration files for custom sets.
 - `sets/`: Folder containing JSON files for flashcard sets.
-  - Example: `sample_set.json`, `Statika.json`
+  - Example: `sample_set.json`
 
 ## Usage
 
