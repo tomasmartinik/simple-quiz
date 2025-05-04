@@ -14,7 +14,7 @@ Simple Quiz is an interactive flashcard application built with Streamlit. It all
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:tomasmartinik/simple-quiz.git
    cd simple-quiz
    ```
 
