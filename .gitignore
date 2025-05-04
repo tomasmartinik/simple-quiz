@@ -1,0 +1,5 @@
+# Ignore conf directory
+conf/
+
+# Ignore sets directory
+sets/
